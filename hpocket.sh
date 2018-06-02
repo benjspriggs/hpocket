@@ -4,7 +4,7 @@ usage(){
   echo -e \
     "Usage:
 
-  $0 (-h|--help)\tDisplay help text
+  $0 (-h|--help)\tDisplay help text"
   exit
 }
 
