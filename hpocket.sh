@@ -1,9 +1,10 @@
 #!/bin/bash
 
 usage(){
-  echo \
+  echo -e \
     "Usage:
-  $0 (-h|--help)  Display help text"
+
+  $0 (-h|--help)\tDisplay help text
   exit
 }
 
