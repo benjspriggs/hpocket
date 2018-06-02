@@ -1,5 +1,5 @@
 language: generic
 before_install:
-  - sudo apt install bats
+  - bash <(curl -s https://raw.githubusercontent.com/pgrange/bash_unit/master/install.sh)
 script:
-  - bats tests
+  - ./bash_unit tests
