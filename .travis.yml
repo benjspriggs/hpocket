@@ -1,0 +1,5 @@
+language: generic
+before_install:
+  - sudo apt install bats
+script:
+  - bats tests
